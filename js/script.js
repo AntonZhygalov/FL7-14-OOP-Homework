@@ -214,11 +214,12 @@ function demonstrate() {
     console.log(casino._machine[0].play(100));
 }
 
+// And here is what you asked Pony!!!!!!!!!!!!!!!!!
+console.log('%c       ', 'font-size: 200px; background: url(https://derpicdn.net/img/2013/12/3/488623/thumb.gif) no-repeat;');
+
 module.exports = {
     Casino: Casino,
     SlotMachine: SlotMachine,
     demonstrate: demonstrate
 }
 
-// And here is what you asked Pony!!!!!!!!!!!!!!!!!
-console.log('%c       ', 'font-size: 200px; background: url(https://derpicdn.net/img/2013/12/3/488623/thumb.gif) no-repeat;');
